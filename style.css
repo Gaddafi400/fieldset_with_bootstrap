@@ -1,0 +1,40 @@
+body {
+    background-color:#f1f1ea79!important;
+}
+
+fieldset.scheduler-border {
+  border: 1px groove rgb(0, 0, 0) !important;
+  border-radius: 7px;
+  padding: 0 1.4em 1.4em 1.4em !important;
+  margin: 0 0 1.5em 0 !important;
+  box-shadow: 0px 0px 0px 0px #000;
+}
+
+legend.text-on-pannel {
+  font-size: 1.2em !important;
+  font-weight: normal !important;
+  text-align: left !important;
+  background: #0269d9;
+  color: beige;
+}
+
+
+legend.text-on-pannel {
+  width: inherit; /* Or auto */
+  padding: 0 10px; /* To give a bit of padding on the left and right */
+  border-bottom: none;
+  border-radius: 3px;
+  height: auto;
+  border: 1px solid #337ab7;
+}
+
+#inputAddress,
+#inputAddress2 {
+  width: 92% !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .on_small_device {
+    margin-top: 30px !important;
+  }
+}
